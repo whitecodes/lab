@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * this class show the wrong warn when using @NotNull
+ * 用于说明使用注释库时的异常警告
  * <p>
  * Created by white on 7/11/17.
  */
