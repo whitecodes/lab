@@ -19,7 +19,7 @@ public class Annotations {
     public List<Integer> foo(@NotNull Integer[] integers) {
         List<Integer> list = new LinkedList<>();
         Arrays.asList(integers).forEach(e -> {
-            if (null != e) { // why here has a warn about condition is always true ?
+            if (null != e) { // why here has a warning about condition is always true ?
                 list.add(addOne(e));
             } else {
                 System.out.println("it is nulllllllll");

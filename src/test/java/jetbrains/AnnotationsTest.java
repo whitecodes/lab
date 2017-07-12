@@ -19,8 +19,7 @@ public class AnnotationsTest {
 
         Integer[] intArray = new Integer[1];
         Assert.assertNull(intArray[0]);
-        List<Integer> list = annotations.foo(intArray);
-//        list.forEach(System.out::println);
+        List<Integer> list = annotations.foo(intArray);// here no warning
         Assert.assertTrue(list.isEmpty());
     }
 
